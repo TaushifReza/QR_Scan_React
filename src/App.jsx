@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router";
-import Homepage from "../pages/Homepage";
-import QrScan from "../pages/QrScan";
+import Homepage from "./pages/Homepage";
+import QrScan from "./pages/QrScan";
 
 function App() {
     return (

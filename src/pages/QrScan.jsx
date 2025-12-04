@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router";
-import { useQRScanner } from "../src/hooks/useQRScanner";
-import ResultView from "../src/components/ResultView";
-import { isMobileDevice } from "../src/utils/deviceDetection";
+import { useQRScanner } from "../hooks/useQRScanner";
+import ResultView from "../components/ResultView";
+import { isMobileDevice } from "../utils/deviceDetection";
 
 const QrScan = () => {
     const { decodedText, error, startScanner, stopScanner, resetScanner } =
